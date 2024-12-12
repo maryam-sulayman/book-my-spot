@@ -1,0 +1,10 @@
+
+.home-navbar {
+  display: flex;
+  justify-content: end;
+}
+
+.home-navbar a {
+  text-decoration: none;
+  margin-left: 20px;
+}
