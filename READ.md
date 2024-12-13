@@ -1,1 +1,0 @@
-# book-my-spot
