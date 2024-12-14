@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles/globals.css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+/* Styles for the service cards */
+.v1_532 {
+    width: 100%; /* Use full width of the grid cell */
+    height: auto; /* Let it adjust based on content */
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    padding: 16px; /* Added padding for better layout */
+}
+
+.v1_533 {
+    color: rgba(26, 26, 26, 1);
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    text-align: left;
+}
+
+.v1_534 {
+    width: 85px;
+    height: 24px;
+    background: rgba(0, 188, 212, 1);
+    margin: 10px 0; /* Margin on top and bottom for spacing */
+    border-radius: 4px;
+}
+
+.v1_535 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-weight: SemiBold;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Add any additional global styles here */
