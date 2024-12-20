@@ -1,0 +1,136 @@
+.dashboard-container {
+    position: relative;
+    background-color: #EFEFEF;
+}
+.image-container {
+    position: relative
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+}
+.offer-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 30
+}
+.offer-list-container {
+    justify-content: center;
+    border-bottom: 2px solid #A5B0D4;
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+.check-icon{
+    color: #061031;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.offer {
+    font-weight: bold;
+    font-size: 18px;
+}
+.image-container {
+    margin-top: 40px;
+}
+.section-one {
+    display: flex;
+   justify-content: space-between;
+}
+.about-container {
+    margin-top: 200px;
+    flex-basis: 700px;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    line-height: 1.8;
+}
+.section-body__cta {
+    background-color: white;
+    color:#061031
+}
+.dashboard-title{
+    color:#061031;
+    font-weight: 700;
+    font-size: 33px;
+    text-align: center;
+}
+.section-two {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.section-body {
+    display: flex;
+    background-color: #061031;
+    margin: 0 50px;
+    padding: 20px 40px;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.section-body__text {
+    color: white;
+}
+.section-body__text--title {
+    font-size: 23px;
+    font-weight: 600;
+}
+.section-body__text--content{
+    width: 400px;
+    font-size: 17px;
+}
+.quote-icon {
+    font-size: 50px;
+    color: #7ba7d7;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+}
+.review-card__review {
+    text-align: center;
+    margin-top: 20px;
+}
+.review-card__details {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.review-card {
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    margin-top: -310px;
+    border-radius: 15px;
+}
+.review-container {
+    position: relative;
+    margin-top: 40px;
+}
+.review-container__image {
+    width: 100%;
+    margin-top: 100px;
+}
+.review-container__background {
+    display: flex;
+    justify-content: space-evenly;
+}
+.client-image {
+    border-radius: 60%;
+}
+.star-icon {
+    color: #E1AF3A
+}
+.name {
+    font-weight: 700;
+    color: #061031;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.role {
+    color: #4761af;
+    margin-bottom: 5px;
+}

@@ -6,5 +6,36 @@
 
 .home-navbar a {
   text-decoration: none;
+  margin-left: 30px;
+  color: #061031;
+  font-weight: 600;
+}
+.angle-down-icon{
+  margin-left: 8px;
+}
+.sign-in-container{
   margin-left: 20px;
+  position: relative;
+  margin-right: 10px;
+}
+.sign-in-container a {
+ color: white;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ padding-left: 35px;
+ padding-right: 15px;
+ margin-left: 0;
+ background-color: #061031;
+
+}
+.user-icon{
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  font-size: 15px;
+}
+
+.sign-up-container a{
+  text-decoration: underline;
 }
