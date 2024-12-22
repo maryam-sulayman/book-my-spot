@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faAngleDown, faLocationArrow, faUser, faCheckCircle, faQuoteLeft, faStar} from '@fortawesome/free-solid-svg-icons';
-library.add(faLocationArrow, faAngleDown, faUser, faCheckCircle, faQuoteLeft, faStar)
+import { faAngleDown, faLocationArrow, faUser, faCheckCircle, faQuoteLeft, faStar, faAngleUp, faGbp, faAutomobile} from '@fortawesome/free-solid-svg-icons';
+library.add(faLocationArrow, faAngleDown, faUser, faCheckCircle, faQuoteLeft, faStar, faAngleUp, faGbp, faAutomobile)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

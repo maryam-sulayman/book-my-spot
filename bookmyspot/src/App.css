@@ -2,6 +2,7 @@
 .home-navbar {
   display: flex;
   justify-content: end;
+  height: 20px;
 }
 
 .home-navbar a {
@@ -10,8 +11,18 @@
   color: #061031;
   font-weight: 600;
 }
-.angle-down-icon{
-  margin-left: 8px;
+.home-navbar a:hover {
+  color:#5c73bb;
+}
+.nav-icon{
+  margin-right: 8px;
+  font-size: 18px;
+}
+.money {
+  color: rgb(66, 179, 66);
+}
+.car {
+  color: #BF3100;
 }
 .sign-in-container{
   margin-left: 20px;
@@ -31,7 +42,7 @@
 .user-icon{
   color: white;
   position: absolute;
-  top: 20%;
+  top: 4px;
   left: 10px;
   font-size: 15px;
 }

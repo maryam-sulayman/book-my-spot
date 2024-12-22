@@ -8,14 +8,12 @@ function App() {
   return (
     <Router>
         <div className="App">
-      <nav className='home-navbar pt-3 pb-3'>
+      <nav className='home-navbar pt-3'>
         <div>
-        <a href="/" className='link'>List your space for free</a>
-        <FontAwesomeIcon icon="angle-down" className='angle-down-icon'/>
+        <a href="/" className='link'><FontAwesomeIcon icon="gbp" className='nav-icon money'/> Earn money </a>
         </div>
         <div>
-        <a href="/sign-in">How it works</a>
-        <FontAwesomeIcon icon="angle-down" className='angle-down-icon'/>
+        <a href="/sign-in"> <FontAwesomeIcon icon="automobile" className='nav-icon car'/>Book a spot</a>
         </div>
         <div  className='sign-up-container'>
         <a href="/sign-in">Sign Up</a>
