@@ -44,7 +44,7 @@ const Search = () => {
             />
           </div>
         </div>
-        <Button title='Find parking spots' customClass='button-dashboard'/>
+        <Button title='Find parking spots' customClass='button'/>
       </form>
     </div>
   );

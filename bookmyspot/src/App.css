@@ -2,7 +2,6 @@
 .home-navbar {
   display: flex;
   justify-content: end;
-  height: 20px;
 }
 
 .home-navbar a {
@@ -24,12 +23,12 @@
 .car {
   color: #BF3100;
 }
-.sign-in-container{
+.sign-in-button-container{
   margin-left: 20px;
   position: relative;
   margin-right: 10px;
 }
-.sign-in-container a {
+.sign-in-button-container a {
  color: white;
  padding-top: 8px;
  padding-bottom: 8px;
@@ -37,12 +36,11 @@
  padding-right: 15px;
  margin-left: 0;
  background-color: #061031;
-
 }
 .user-icon{
   color: white;
   position: absolute;
-  top: 4px;
+  top: 5px;
   left: 10px;
   font-size: 15px;
 }

@@ -1,0 +1,27 @@
+.sign-in-container, .sign-up-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .sign-in-container__title, .sign-up-container__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .sign-up-wrapper, .sign-in-wrapper {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .sign-up-link, .sign-in-link {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #061031;
+  }
