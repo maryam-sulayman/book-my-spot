@@ -2,13 +2,40 @@ import React, {useState} from 'react';
 import DatePicker from 'react-datepicker';
 import '../styles/Search.css';
 import 'react-datepicker/dist/react-datepicker.css';
-import Button from '../components/Button'
+import Button from './Button'
 import '../styles/Button.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+
 
 const Search = () => {
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
+    const [location, setLocation] = useState('');
+
+    const navigate = useNavigate();
+
+    const handleSearch = async () => {
+        try {
+            const geoResponse = await axios.get(
+                `https://maps.googleapis.com/maps/api/geocode/json`,
+                {
+                    params: {
+                        address: location,
+                        key: 'AIzaSyBgRwMWiuvIF7DwtpQEqOa6MkEQBKi_PG8',
+                    },
+                }
+            );
+    
+            const { lat, lng } = geoResponse.data.results[0].geometry.location;
+    
+            navigate('/searchPage', { state: { lat, lng } });
+        } catch (error) {
+            console.error('Error fetching parking spots:', error);
+        }
+    };
+    
 
 
   return (
@@ -21,6 +48,8 @@ const Search = () => {
           type="text"
           className='search-input'
           placeholder='Search for a place or postcode'
+          value={location}
+          onChange={(e) => setLocation(e.target.value)}
         />
         <FontAwesomeIcon icon="location-arrow" className='location-icon'  />
         </div>
@@ -44,7 +73,7 @@ const Search = () => {
             />
           </div>
         </div>
-        <Button title='Find parking spots' customClass='button'/>
+        <Button title='Find parking spots' customClass='button' handleClick={handleSearch}/>
       </form>
     </div>
   );

@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import '../styles/SignIn.css';
-import Button from '../components/Button';
+import Button from '../components/Button.jsx';
 import axios from 'axios';
+import { UserContext } from '../userContext.jsx';
 
 export default function SignIn() {
   const [formData, setFormData] = useState({
@@ -10,6 +11,7 @@ export default function SignIn() {
     password: '',
   });
   const [redirect, setRedirect] = useState(false)
+  const {setUser} = useContext(UserContext)
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,12 +21,13 @@ export default function SignIn() {
   const handleSubmit = async (e) => { 
     e.preventDefault();
     try {
-        const response = await axios.post('/sign-in', {
+        const {data} = await axios.post('/sign-in', {
             email: formData.email,  
             password: formData.password, 
         }, {   
             withCredentials: true, 
         });
+        setUser(data)
         alert('Login successful');
         setRedirect(true)
     } catch (error) {

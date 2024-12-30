@@ -1,0 +1,26 @@
+.link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 120px;
+}
+.link {
+    font-weight: 600;
+    color:#061031;
+    text-decoration: none;
+    padding: 7px 30px;
+}
+.active-link {
+    color: white;
+    text-decoration: none;
+    background-color: #061031;
+    border-radius: 50px;
+    font-weight: 600;
+    padding: 7px 30px;
+    .account-icon {
+        color:white;
+    }
+}
+.account-icon {
+    color:#061031;
+}

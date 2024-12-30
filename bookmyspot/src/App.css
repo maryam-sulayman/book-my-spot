@@ -2,13 +2,15 @@
 .home-navbar {
   display: flex;
   justify-content: end;
+  padding-right: 20px;
+  background-color:#061031;
 }
 
 .home-navbar a {
   text-decoration: none;
   margin-left: 30px;
-  color: #061031;
-  font-weight: 600;
+  color: white;
+  font-weight: 700;
 }
 .home-navbar a:hover {
   color:#5c73bb;
@@ -26,7 +28,6 @@
 .sign-in-button-container{
   margin-left: 20px;
   position: relative;
-  margin-right: 10px;
 }
 .sign-in-button-container a {
  color: white;
@@ -45,6 +46,29 @@
   font-size: 15px;
 }
 
-.sign-up-container a{
+.sign-up-button-container a{
   text-decoration: underline;
+}
+.flex {
+  display: flex;
+}
+.username__container {
+  font-weight: 700;
+  margin-left: 20px;
+  color: wheat;
+}
+.username {
+  background-color: #CED5EB;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+.username__container a {
+  text-decoration: none;
+  color:#5b1902;
+  margin-left: 5px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.username__container a:hover{
+cursor: pointer;
 }

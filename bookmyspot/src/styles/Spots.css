@@ -1,0 +1,72 @@
+.spots-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.list-container {
+  border-right: 1px solid grey;
+  padding-right: 100px;
+}
+.spots-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.spot-card {
+padding: 10px;
+background-color: whitesmoke;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+display: flex;
+gap: 20px;
+width: 380px;
+}
+.spot-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.spots-container__title {
+  font-size: 23px;
+  font-weight: 700;
+}
+.italics {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 300;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-container__input {
+  display: flex;
+  align-items: center;
+
+}
+.pound-sign {
+  font-size: 20px;
+  color: green;
+  font-weight: 700;
+  margin-right: 10px;
+}
+label {
+  font-weight: 600;
+}
+.label {
+  font-size: 14px;
+  font-weight: 700;
+}
+.button-container {
+display: flex;
+justify-content: center;
+}
+.submit-button {
+  width: 400px;
+  margin-top: 30px;
+}
+.info {
+  font-weight: 400;
+  font: 13px;
+}
