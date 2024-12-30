@@ -13,7 +13,7 @@ const center = {
 
 export default function MapView({ markers }) {
     const { isLoaded } = useJsApiLoader({
-        googleMapsApiKey: 'AIzaSyBgRwMWiuvIF7DwtpQEqOa6MkEQBKi_PG8',
+        googleMapsApiKey: '',
     });
 
     if (!isLoaded) return <div>Loading...</div>;
