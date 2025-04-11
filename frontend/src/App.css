@@ -1,0 +1,105 @@
+/* Default Navigation Bar */
+.home-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b122e; /* Default navy blue */
+  padding: 10px 20px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* Navigation Bar on Dashboard (No Background) */
+.dashboard-navbar {
+  background-color: transparent; 
+  color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Logo */
+.logo-container .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 90px;
+}
+
+.nav-links .nav-link {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #cccccc; /* Slight grey on hover */
+}
+
+/* Active Link */
+.nav-link.active {
+  font-weight: bold;
+  color: #0b122e; /* Darker navy blue for active links */
+}
+
+/* User Section */
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+
+.user-name {
+  font-size: 17px;
+  font-weight: bold;
+ color: #061031;
+text-transform: capitalize;
+}
+
+.user-icon {
+  font-size: 20px;
+  color: #061031;
+}
+
+.user-link {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.user-link:hover {
+  color: #cccccc;
+}
+
+/* Login Button */
+.login-button {
+  background-color: #0b122e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.login-button:hover {
+  background-color: #cccccc;
+  color: #0b122e;
+}
+

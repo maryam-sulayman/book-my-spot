@@ -1,0 +1,29 @@
+.bookings-container {
+    margin: 20px;
+  }
+  
+  .bookings-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .booking-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .booking-card p {
+    margin: 5px 0;
+  }
+  
+  .booking-card strong {
+    font-weight: bold;
+  }
+  .leave-review-button, .contact-driver-button {
+    display: flex;
+    justify-self: flex-end;
+  }
+  

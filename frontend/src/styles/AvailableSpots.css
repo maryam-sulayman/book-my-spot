@@ -1,0 +1,184 @@
+  .available-spots-container {
+    padding: 20px;
+  }
+  
+  .available-search-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: 30px 0;
+  }
+  
+  .available-search-input {
+    width: 1000px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  .available-input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .available-time-picker-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: -20px;
+  }
+  .available-time-picker-container label {
+    font-weight: 600;
+  }
+  
+  .available-search-button {
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .map-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .available-spot-item {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+    
+  .no-spots-message {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+  }
+  /* Star Ratings */
+.available-star-icon {
+    color: #EBC351; /* Gold color for stars */
+    font-size: 11px;
+  }
+  
+  .available-spot-rating {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .available-spot-rating span {
+    color: #333;
+    font-weight: bold;
+    margin-right: 3px;
+  }
+  /* Grid Layout for Cards */
+.available-spots-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 20px;
+    padding: 0 40px;
+  }
+  
+  /* Card Style */
+  .available-spot-card {
+    background: #EFEFEF;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(95, 21, 21, 0.1);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+  
+  .available-spot-image {
+    width: 200px;
+    height: 200px;
+   border-radius: 8px;
+  }
+  
+  /* Card Details */
+  .available-spot-details {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .available-spot-address {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .available-spot-postcode{
+    font-size: 18px;
+    text-transform:uppercase;
+  }
+  .available-mid-section, .space {
+    display: flex;
+    justify-content: space-between;
+  }
+  .available-spot-postcode,
+  .available-spot-price,
+  .available-spot-availability {
+    color: #555;
+    margin: 0;
+  }
+  
+  .availability-status {
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  
+  .availability-status.available {
+    background-color: #E2FBE2;
+  }
+  
+  .availability-status.not-available {
+    background-color: red;
+  }
+  
+  /* Buttons */
+  .available-spot-button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    position: absolute;
+bottom: 0;
+  }
+  
+  .book-now {
+    background-color: #0b122e; /* Dark navy */
+  }
+  
+  .book-now:hover {
+    background-color: #0056d2; /* Lighter navy */
+  }
+  
+  .book-later {
+    background-color: #888888; /* Grey */
+  }
+  
+  .book-later:hover {
+    background-color: #555555; /* Dark grey */
+  }
+
+
+.available-spot-button:hover {
+  background-color: #022556;
+}

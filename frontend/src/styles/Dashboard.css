@@ -1,0 +1,352 @@
+.dashboard-container {
+  position: relative;
+  background-color: #efefef;
+}
+.image-container {
+  position: relative;
+overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding: 50px;
+}
+.hero-text h1 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1.brand-name {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.hero-description {
+  font-size: 18px;
+  margin-top: 20px;
+  max-width: 600px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+
+.offer-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30;
+}
+.offer-list-container {
+  justify-content: center;
+  border-bottom: 2px solid #a5b0d4;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.check-icon {
+  color: #061031;
+  font-size: 23px;
+  margin-right: 5px;
+}
+.offer {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.section-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 0 30px;
+  margin-top: 50px;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: 20px;
+  letter-spacing: 1.4px;
+  line-height: 1.8;
+}
+.section-body__cta {
+  background-color: white;
+  color: #061031;
+}
+.dashboard-title {
+  color: #061031;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.section-two {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section-body {
+  display: flex;
+  background-color: #061031;
+  margin: 0 50px;
+  padding: 20px 40px;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.section-body__text {
+  color: white;
+}
+.section-body__text--title {
+  font-size: 23px;
+  font-weight: 600;
+}
+.section-body__text--content {
+  width: 400px;
+  font-size: 17px;
+}
+.quote-icon {
+  font-size: 50px;
+  color: #7ba7d7;
+  display: flex;
+  justify-self: center;
+  margin-top: 20px;
+}
+.review-card__review {
+  text-align: center;
+  margin-top: 20px;
+}
+.review-card__details {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+.review-card {
+  background-color: white;
+  height: 350px;
+  width: 350px;
+  margin-top: -310px;
+  border-radius: 15px;
+}
+.review-container {
+  position: relative;
+  margin-top: 100px;
+}
+.review-container__image {
+  width: 100%;
+  margin-top: 100px;
+}
+.review-container__background {
+  display: flex;
+  justify-content: space-evenly;
+}
+.client-image {
+  border-radius: 60%;
+}
+.star-icon {
+  color: #e1af3a;
+}
+.name {
+  font-weight: 700;
+  color: #061031;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.role {
+  color: #4761af;
+  margin-bottom: 5px;
+}
+.category-section__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px ;
+  margin-top: 40px;
+}
+.category-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+}
+.category-section__title,
+.section-four__title {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.postcode {
+  font-size: 16px;
+}
+.details {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.details p{
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+}
+.arrow-icon {
+  font-size: 25px;
+  color: white;
+}
+.help-section__question {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #061031;
+  color: white;
+  padding: 10px;
+  align-items: center;
+}
+.help-section__card {
+  width: 800px;
+  margin-top: 20px;
+}
+.dashboard-title--help-section {
+  text-align: start;
+}
+.help-section {
+  margin-top: 150px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 600px;
+}
+
+.help-section__card {
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.help-section__answer {
+  background-color: white;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: -8px;
+  height: 70px;
+}
+
+.toggle-button {
+  border: none;
+  background-color: #061031;
+}
+.section-four__image {
+  width: 600px;
+  margin-top: 180px;
+}
+.footer {
+  background-color: #061031;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 200px;
+  gap: 100px;
+  padding-left: 30px;
+}
+.footer__title {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.footer__details {
+  color: white;
+}
+.rating {
+  color: #4d7c1c;
+  font-size: 16px;
+ margin-top: 13px;
+}
+.star-icon--rated {
+  color: #4d7c1c;
+  margin-right: 5px;
+}
+.background {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.download-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category__container {
+  background-color: white;
+  height: 480px;
+  border-radius: 16px;
+}
+.category-image {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.category-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.line {
+  margin: 0 20px;
+}
+.quick-book {
+margin: 0 auto;
+display: block;
+margin-top: 30px;
+border-radius: 5px;
+}
+.dashboard {
+  position: relative;
+  height: 100vh;
+}
+
+/* For medium screens  */
+@media (max-width: 600px) { 
+  .search-form {
+    width: 200px;
+    padding: 10px;
+  }
+  .help-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .help-section__card {
+    width: 300px;
+  }
+  .review-card {
+    display: none;
+  }
+  .section-body__text--content {
+    width: 300px;
+    font-size: 17px;
+  }
+  .section-one {
+    display: flex;
+    flex-direction: column;
+  }
+
+/* For smaller screens  */
+  @media (max-width: 410px) {
+    .search-form {
+      width: 100px;
+    }
+    .help-section__card {
+      width: 200px;
+    }
+    .section-body__text--content {
+      width: 100px;
+      font-size: 17px;
+    }
+}
+}

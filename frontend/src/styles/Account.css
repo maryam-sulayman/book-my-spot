@@ -1,0 +1,148 @@
+.link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 120px;
+}
+.link, button.link {
+    font-weight: 600;
+    color:#061031;
+    text-decoration: none;
+    padding: 7px 30px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+}
+
+.active-link {
+    color: white;
+    text-decoration: none;
+    background-color: #061031;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 7px 30px;
+    .account-icon {
+        color:white;
+    }
+}
+.link:hover, button.link:hover  {
+  background-color: #dadee6;
+  border-radius: 50px;
+}
+.account-icon {
+    font-size: 19px;
+    margin-right: 10px;
+}
+.spots-page {
+    padding: 20px;
+  }
+  
+  .bookings-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .booking-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .booking-item p {
+    margin: 5px 0;
+  }
+  
+  /* General Container */
+.profile-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+/* Left Section */
+.profile-page .left-section {
+  width: 30%;
+  text-align: center;
+}
+
+.profile-page .profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  object-fit: cover;
+  border: 3px solid #061031;
+}
+
+.profile-page .update-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 20px;
+  background-color: #061031;
+  color: white;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-page .update-button:hover {
+  background-color: #00274f;
+}
+
+/* Right Section */
+.profile-page .right-section {
+  width: 65%;
+  color: white;
+}
+.info-background {
+  background-color: #061031;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.profile-page .right-section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-page .info-field {
+  margin-bottom: 20px;
+}
+
+.profile-page .info-label {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.profile-page .info-value {
+  display: block;
+  padding: 13px;
+  background-color: #243a5e;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.profile-page .warning-text {
+  color: #D10000;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 450;
+}
+
+/* Sign Out Button */
+.profile-page .sign-out {
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.profile-page .sign-out:hover {
+  background-color: #243a5e;
+}

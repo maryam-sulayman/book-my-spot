@@ -1,0 +1,40 @@
+.sign-in-container, .sign-up-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }  
+  
+  .sign-in-container__title, .sign-up-container__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .sign-up-wrapper, .sign-in-wrapper {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .sign-up-link, .sign-in-link {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #061031;
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+  }
+  .auth-image {
+  width: 800px;
+  }
+  .logo {
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  .button {
+    padding: 15px;
+  }
+  .form-control {
+    padding: 10px !important;
+  }

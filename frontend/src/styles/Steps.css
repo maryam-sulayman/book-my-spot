@@ -1,0 +1,47 @@
+.step-progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    background-color: #bbb9b9;
+   
+  }
+  .text {
+    color: white;
+  }
+  .line {
+    width: 150px;
+    height: 7px;
+    background-color: #ddd;
+
+  }
+  
+  .active .circle {
+    background-color: #061031;;
+   color: white;
+  }
+  
+.line.active {
+    background-color: #061031;
+    border: 1px solid white;
+  }
+
+  

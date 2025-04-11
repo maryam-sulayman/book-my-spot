@@ -1,0 +1,49 @@
+.next, .cancel, .previous, .pay {
+    border-radius: 5px;
+}
+.cancel {
+    background-color: #D10000;
+}
+.previous {
+    background-color:#6C757D
+}
+.booking-details-container {
+    border: 1px solid grey;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color:#F4F6FF;
+    padding: 5px;
+}
+.title {
+font-size: 25px;
+color: white;
+}
+.subtitle {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.address {
+    text-transform: capitalize;
+}
+.walking-icon {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.second {
+    padding: 0 10px;
+    margin-top: 20px;
+}
+.wrapper {
+    background-image: url('../images/auth.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}

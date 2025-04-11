@@ -1,0 +1,53 @@
+.review-page-container {
+  border-radius: 10px;
+  color: white;
+}
+
+.review-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.review-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.review-input,
+.review-textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.review-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #066609;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: white;
+}

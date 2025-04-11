@@ -1,0 +1,20 @@
+.additional-info-container {
+    border: 1px solid grey;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color:#F4F6FF;
+    padding: 10px;
+    padding-top: 15px
+}
+.additional-info-container label {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.form-group {
+    padding: 10px;
+}
+.input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
